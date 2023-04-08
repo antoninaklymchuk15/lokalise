@@ -24,6 +24,9 @@
     font-family:'Graphik LCG';
 }
 
+body{
+    margin: 0;
+}
 
 .container{
     width: 1440px;
@@ -45,8 +48,7 @@ hr{
 .header{
     display: flex;
     align-items: center;
-    flex-direction: row;
-    padding: 0 51px 0 51px;
+    padding: 0 51px;
     justify-content: space-between;
 
 }
@@ -82,7 +84,7 @@ hr{
       
 }
 
-.menu_button{
+.menu-button{
     width: 120px;
     height: 45px;
     margin-left: 10px;
@@ -110,7 +112,7 @@ hr{
     }
 
 .head-banner-wrapper{
-     padding: 96px 75px 137px 75px;
+     padding: 96px 75px 137px;
 }
 
 .head-banner{
@@ -130,8 +132,7 @@ hr{
     font-weight: 600;
     font-size: 65px;
     line-height: 108%;
-    margin: 0 auto;
-    
+    margin: 0 5px 0 0;
     
 }
 
@@ -143,6 +144,7 @@ hr{
 .head-banner-text{
     font-size: 25px;
     line-height: 35px;
+    width: 471px;
     margin: 51px 0;
  }
 
@@ -151,7 +153,7 @@ hr{
     margin-bottom: 25px;
  }
 
- .banner_button{
+ .banner-button{
   
     text-align: center;
     font-weight: 600;
@@ -161,11 +163,11 @@ hr{
    
 }
 
-.banner_button.head{
+.banner-button.head{
     margin-right: 10px;
 }
 
-.banner_button.bottom{
+.banner-button.bottom{
     width: 193px;
     height: 60px;
     margin-top: 32px;
@@ -188,14 +190,14 @@ hr{
     flex-direction: column;
     
 }
-.partners_logos{
+.partners-logos{
     display: flex;
     margin-bottom: 104px;
 
 }
 
 
- .partners_title{
+ .partners-title{
     font-size: 50px;
     line-height: 60px;
     text-align: center;
@@ -222,8 +224,7 @@ hr{
 
  .features{
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    align-items: center;   
     margin-bottom: 250px;
  }
 
@@ -249,20 +250,25 @@ hr{
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    margin-right: 31px;
 }
+
+
+
+
 
 .features-image{
     width: 45%;
 }
 
- .features_link{
+ .features-link{
     display: flex;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
      
 }
-.description_link{
+.description-link{
     text-decoration: underline;
 }
 
@@ -278,7 +284,7 @@ hr{
 }
 
 .usage-wrapper{
-    padding: 120px 75px 93px;
+    padding: 120px 75px 150px;
     background-color: #FFF8E4;
     margin: 0 auto;
 }
@@ -292,11 +298,8 @@ hr{
 .usage-cards-section{
     width: 100%;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    
-   
-   
+
   
 }
 
@@ -307,9 +310,14 @@ hr{
     width: 33%;
     font-size: 18px;
     line-height: 25px;
-    margin-top: 75px;
+    margin-top: 54px;
     text-align: center;
     
+    
+}
+
+.usage-card p{
+    margin: 0 49px;
 }
 
 
@@ -329,7 +337,6 @@ hr{
     width: 33%;
     font-size: 20px;
     line-height: 30px;
-    text-align: left;
     
 }
 
@@ -339,17 +346,16 @@ hr{
     line-height: 40px;
 }
 
-.productivity_wrapper{
-    padding: 154px 75px 187px 75px;
+.productivity-wrapper{
+    padding: 154px 75px 187px;
 }
 
-.productivity_banner{
+.productivity-banner{
     display: flex;
-    flex-direction: row;
     margin-top: 92px;
 }
 
- .more_link{
+ .more-link{
     text-decoration: underline;
     margin-top: 25px;
    
@@ -359,23 +365,27 @@ hr{
     margin: 0 auto;
 }
 
-.img_manager{
+.productivity-description p{
+    margin-right: 20px;
+
+}
+
+.img-manager{
     margin-bottom: 49px;
 }
 
-.img_dev{
+.img-dev{
     margin-bottom: 84px;
 }
 
-.img_translator{
+.img-translator{
     margin-bottom: 67px;
 }
 
 .response-wrapper{
     background-color: #C9E8F2;
     display: flex;
-    flex-direction: row;
-    padding: 0 75px 0 75px;
+    padding: 0 75px;
    
 }
 
@@ -388,6 +398,7 @@ hr{
 #user-comment{
     font-size: 30px;
     line-height: 40px;
+    margin-right: 72px;
 }
 
 #username{
@@ -405,7 +416,6 @@ hr{
 .value-wrapper{
     background-color:  #DABC98;
     display: flex;
-    flex-direction: row;
     padding: 70px 76px 84px 74px;
     align-items: center;
    
@@ -424,7 +434,6 @@ hr{
 .rating{
     border-left: 1px solid black;
     display: flex;
-    flex-direction: row;
     height: 168px;
     align-items: center;
     padding-left: 70px;
@@ -442,7 +451,7 @@ hr{
  }
 
  .integrations-wrapper{
-    padding: 0 75px 0 75px;
+    padding: 0 75px;
    
     }
 
@@ -469,7 +478,8 @@ hr{
     text-align: center;
     font-size: 25px;
     line-height: 30px;
-    margin-bottom: 25px;
+    margin: 0 375px 25px;
+   
  }
 
  .localization{
@@ -494,7 +504,7 @@ hr{
     line-height: 30px;
  }
 
- .localization .banner_button{
+ .localization .banner-button{
     background-color: #000000;
     color: #FFFFFF;
     margin-top: 54px;
@@ -507,7 +517,6 @@ hr{
  
  .footer{
     display: flex;
-    flex-direction: row;
     border-bottom: 1px solid black;
     padding-bottom: 95px;
     justify-content: space-between;
@@ -518,15 +527,17 @@ hr{
  .footer-first-column{
     display: flex;
     flex-direction: column;
-    text-align: left;
-    padding: 0;
+    padding-right: 0;
  }
 
  .footer-first-column h3{
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
-    margin: 0 0 28px 0;
+    margin: 0 0 28px;
+ }
+ .footer-first-column .features-desc{
+    width: 290px;
  }
 
  .small-logo{
@@ -536,7 +547,6 @@ hr{
  .footer-small-column{
     display: flex;
     flex-direction: column;
-    text-align: left;
  }
 
  .footer-small-column h3{
@@ -553,7 +563,7 @@ hr{
  .bottom-footer{
     margin-top: 47px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     font-size: 12px;
     line-height: 15px;
     justify-content: space-between;
@@ -562,9 +572,14 @@ hr{
 
  .bottom-footer-left{
     display: flex;
-    flex-direction: row;
+    margin-right: 845px;
  }
 
  .bottom-footer-left img{
     margin-right: 14px;
  }
+
+ .rights{
+    width: 109px;
+ }
+ 
