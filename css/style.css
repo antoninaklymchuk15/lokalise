@@ -55,7 +55,7 @@ hr{
 
 .header-info{
     display: flex;
-    padding: 0 auto;
+    padding: 0;
    
 }
 
@@ -188,12 +188,14 @@ hr{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
+   
 }
+    
+
 .partners-logos{
     display: flex;
     margin-bottom: 104px;
-
 }
 
 
@@ -386,7 +388,7 @@ hr{
     background-color: #C9E8F2;
     display: flex;
     padding: 0 75px;
-   
+      
 }
 
 .response-content{
