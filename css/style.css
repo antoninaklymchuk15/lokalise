@@ -410,6 +410,8 @@ hr{
     display: flex;
     width:25%;
     margin: 53px 0 105px;
+    object-fit: contain;
+    align-self: flex-start;
   
 }
 
