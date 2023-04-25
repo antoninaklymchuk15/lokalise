@@ -25,12 +25,7 @@
 }
 
 body{
-    margin: 0;
-}
-
-.container{
-    width: 1440px;
-    margin:0 auto ;
+    margin: 0 auto;
 }
 
 a{
@@ -136,15 +131,15 @@ hr{
     
 }
 
-.head-banner-image{
-       width: 50%;
-       display: flex;
-}
 
+
+.head-banner-image{
+    width: 50%;
+}
+  
 .head-banner-text{
     font-size: 25px;
     line-height: 35px;
-    width: 471px;
     margin: 51px 0;
  }
 
@@ -187,9 +182,7 @@ hr{
 .partners{
     display: flex;
     align-items: center;
-    flex-direction: column;
-
-   
+    flex-direction: column; 
 }
     
 
@@ -206,12 +199,12 @@ hr{
     margin: 98px 230px 70px 340px;
  }
 
- .patner{
+ .partner{
     display: flex;
     margin-right: 103px;
  }
 
- .patner:last-child{
+ .partner:last-child{
    margin-right: 0;
  }
 
@@ -228,6 +221,10 @@ hr{
     display: flex;
     align-items: center;   
     margin-bottom: 250px;
+ }
+
+ .features-image{
+    width: 50%;
  }
 
  .features:last-child{
@@ -255,13 +252,6 @@ hr{
     margin-right: 31px;
 }
 
-
-
-
-
-.features-image{
-    width: 45%;
-}
 
  .features-link{
     display: flex;
@@ -298,7 +288,6 @@ hr{
 }
 
 .usage-cards-section{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
 
@@ -372,6 +361,12 @@ hr{
 
 }
 
+img{
+    display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .img-manager{
     margin-bottom: 49px;
 }
@@ -394,6 +389,8 @@ hr{
 .response-content{
     flex-grow: 2;
     margin: 63px 0 150px;
+    display: flex;
+    flex-direction: column;
    
 }
 
@@ -415,6 +412,10 @@ hr{
     object-fit: contain;
     align-self: flex-start;
   
+}
+
+.response-logo{
+    width: 10%;
 }
 
 .value-wrapper{
@@ -540,7 +541,13 @@ hr{
     line-height: 50px;
     margin: 0 0 28px;
  }
+
  .footer-first-column .features-desc{
+    width: 290px;
+ }
+
+ 
+ #footer-pic{
     width: 290px;
  }
 
@@ -576,14 +583,16 @@ hr{
 
  .bottom-footer-left{
     display: flex;
-    margin-right: 845px;
+   
+ }
+
+ .bottom-footer-left p{
+    width: 300px;
  }
 
  .bottom-footer-left img{
     margin-right: 14px;
  }
 
- .rights{
-    width: 109px;
- }
+ 
  
