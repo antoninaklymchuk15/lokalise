@@ -169,7 +169,7 @@ hr{
     margin-bottom: 162px;
 }
 
-.footnote{
+.footnote, .assessment p{
     font-size: 15px;
     line-height: 25px;
 }
@@ -421,7 +421,7 @@ img{
 .value-wrapper{
     background-color:  #DABC98;
     display: flex;
-    padding: 70px 76px 84px 74px;
+    padding: 70px 45px 84px;
     align-items: center;
    
 }
@@ -431,7 +431,7 @@ img{
     font-weight: 600;
     font-size: 35px;
     line-height: 50px;
-    margin-left: 67px;
+    margin-left: 30px;
    
     
 }
@@ -439,9 +439,10 @@ img{
 .rating{
     border-left: 1px solid black;
     display: flex;
-    height: 168px;
     align-items: center;
+    justify-content: space-between;
     padding-left: 70px;
+    padding-top: 109px;
 }
 
 .assessment{
@@ -450,6 +451,26 @@ img{
     margin-right: 70px;
     
  }
+
+ .g2{
+    display: block;
+    margin-bottom: 19.99px;
+ }
+ 
+ .capterra{
+    margin-bottom: 20.2px;
+ }
+
+ .stars{
+    display: flex;
+    margin-bottom: 15px;
+    
+ }
+
+ .assessment p{
+    
+    letter-spacing: 0.75px;
+}
 
  .assessment:last-child{
     margin-right: 0;
